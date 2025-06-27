@@ -1,0 +1,33 @@
+
+baseURL = "https://praveensoni.me/"
+languageCode = "en-us"
+title = "Praveen Soni"
+theme = "PaperMod"
+[pagination]
+  pagerSize = 5
+
+[params]
+  author = "Praveen Soni"
+  description = "Systems Thinker | Consultant | Founder @ Emberlytic"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "work"
+    name = "Work"
+    url = "/work/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 3
